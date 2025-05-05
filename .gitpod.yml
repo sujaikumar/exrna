@@ -18,6 +18,6 @@ tasks:
 
       clear
 
-      echo -r "\n\nexrna works\n\n"
+      echo -e "\n\nexrna works\n\n"
 
 
