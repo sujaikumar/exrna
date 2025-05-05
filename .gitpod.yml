@@ -13,3 +13,5 @@ tasks:
       conda config --set channel_priority strict
 
       conda create -y -n exrna fastqc cutadapt bowtie samtools
+
+      conda activate exrna
