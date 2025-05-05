@@ -19,7 +19,5 @@ tasks:
       clear
 
       echo -r "\n\nexrna works\n\n"
-workbench:
-  layout:
-    - { type: 'left', size: 0.4, panels: [ { type: 'explorer', pinned: true } ] }
-    - { type: 'right', size: 0.6, panels: [ { type: 'terminal', pinned: true } ] }
+
+
