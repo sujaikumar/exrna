@@ -1,7 +1,3 @@
-workbench:
-  layout:
-    - { type: 'left', size: 0.2, panels: [ { type: 'explorer', pinned: true } ] }
-    - { type: 'right', size: 0.8, panels: [ { type: 'terminal', pinned: true } ] }
 tasks:
   - name: Install conda and env
     init: |
@@ -23,3 +19,7 @@ tasks:
       clear
 
       echo -r "\n\nexrna works\n\n"
+workbench:
+  layout:
+    - { type: 'left', size: 0.4, panels: [ { type: 'explorer', pinned: true } ] }
+    - { type: 'right', size: 0.6, panels: [ { type: 'terminal', pinned: true } ] }
