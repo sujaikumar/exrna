@@ -1,3 +1,7 @@
+workbench:
+  layout:
+    - { type: 'left', size: 0.2, panels: [ { type: 'explorer', pinned: true } ] }
+    - { type: 'right', size: 0.6, panels: [ { type: 'terminal', pinned: true } ] }
 tasks:
   - name: Install conda and env
     init: |
@@ -15,3 +19,7 @@ tasks:
       conda create -y -n exrna fastqc cutadapt bowtie samtools
 
       conda activate exrna
+
+      clear
+
+      echo -r "\n\nexrna works\n\n"
