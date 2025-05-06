@@ -18,6 +18,6 @@ tasks:
 
       clear
 
-      echo -e "\n\nexrna works\n\n"
+      echo -e "\n\nPlease copy the text on the next line:\nexrna works\n\n"
 
 
