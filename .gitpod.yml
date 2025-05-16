@@ -23,6 +23,3 @@ tasks:
 
       echo -e "\n\nPlease copy the text on the next line:\nexrna works\n\n"
 
-vscode:
-  settings:
-    workbench.startupEditor: "none"
