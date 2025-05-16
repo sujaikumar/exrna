@@ -20,4 +20,4 @@ tasks:
 
       # echo -e "\n\nPlease copy the text on the next line:\nexrna works\n\n"
 
-- command: gp preview https://cei.bio.ed.ac.uk/exRNA_Bioinformatics/
+  - command: gp preview https://cei.bio.ed.ac.uk/exRNA_Bioinformatics/
