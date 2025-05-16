@@ -20,8 +20,4 @@ tasks:
 
       # echo -e "\n\nPlease copy the text on the next line:\nexrna works\n\n"
 
-vscode:
-  settings:
-    # Change the initial explorer folder.
-    workbench.startup.workspace.restore: false # Don't restore the previous workspace state.
-    explorer.openEditors.visible: 0 # Don't show open editors in the explorer
+- command: gp preview https://cei.bio.ed.ac.uk/exRNA_Bioinformatics/
