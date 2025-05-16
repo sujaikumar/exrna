@@ -16,6 +16,8 @@ tasks:
 
       conda activate exrna
 
+      cd ~/
+
       clear
 
       echo -e "\n\nPlease copy the text on the next line:\nexrna works\n\n"
