@@ -1,4 +1,5 @@
 tasks:
+  - command: gp preview https://cei.bio.ed.ac.uk/exRNA_Bioinformatics/
   - name: Install conda and env
     init: |
       mkdir -p ~/miniconda3 && cd ~/miniconda3
@@ -16,8 +17,12 @@ tasks:
 
       # conda activate exrna
 
-      # clear
+      cd ~/
 
-      # echo -e "\n\nPlease copy the text on the next line:\nexrna works\n\n"
+      clear
 
-  - command: gp preview https://cei.bio.ed.ac.uk/exRNA_Bioinformatics/
+      echo -e "\n\nPlease copy the text on the next line:\nexrna works\n\n"
+
+vscode:
+  extensions:
+    - gitpod.gitpod-welcome@0.0.12:disable
