@@ -24,5 +24,5 @@ tasks:
       echo -e "\n\nPlease copy the text on the next line:\nexrna works\n\n"
 
 vscode:
-  extensions:
-    - gitpod.gitpod-welcome@0.0.12:disable
+  settings:
+    workbench.startupEditor: "none"
