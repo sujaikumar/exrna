@@ -13,7 +13,7 @@ tasks:
       conda config --add channels conda-forge
       conda config --set channel_priority strict
 
-      conda create -y -n exrna fastqc cutadapt bowtie samtools multiqc seqtk
+      conda create -y -n exrna fastqc cutadapt bowtie samtools multiqc seqtk bedtools
 
       conda activate exrna
 
