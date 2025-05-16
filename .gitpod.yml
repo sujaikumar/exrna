@@ -1,4 +1,5 @@
 tasks:
+  - command: gp preview https://cei.bio.ed.ac.uk/exRNA_Bioinformatics/
   - name: Install conda and env
     init: |
       mkdir -p ~/miniconda3 && cd ~/miniconda3
@@ -21,5 +22,4 @@ tasks:
       clear
 
       echo -e "\n\nPlease copy the text on the next line:\nexrna works\n\n"
-
 
