@@ -2,22 +2,26 @@ tasks:
   - name: Install conda and env
     init: |
       mkdir -p ~/miniconda3 && cd ~/miniconda3
-      wget https://repo.anaconda.com/miniconda/Miniconda3-latest-Linux-x86_64.sh -O ~/miniconda3/miniconda.sh
-      bash ~/miniconda3/miniconda.sh -b -u -p ~/miniconda3
-      rm ~/miniconda3/miniconda.sh
-      ~/miniconda3/bin/conda init bash
-      source ~/.bashrc
+      # wget https://repo.anaconda.com/miniconda/Miniconda3-latest-Linux-x86_64.sh -O ~/miniconda3/miniconda.sh
+      # bash ~/miniconda3/miniconda.sh -b -u -p ~/miniconda3
+      # rm ~/miniconda3/miniconda.sh
+      # ~/miniconda3/bin/conda init bash
+      # source ~/.bashrc
 
-      conda config --add channels bioconda
-      conda config --add channels conda-forge
-      conda config --set channel_priority strict
+      # conda config --add channels bioconda
+      # conda config --add channels conda-forge
+      # conda config --set channel_priority strict
 
-      conda create -y -n exrna fastqc cutadapt bowtie samtools
+      # conda create -y -n exrna fastqc cutadapt bowtie samtools
 
-      conda activate exrna
+      # conda activate exrna
 
-      clear
+      # clear
 
-      echo -e "\n\nPlease copy the text on the next line:\nexrna works\n\n"
+      # echo -e "\n\nPlease copy the text on the next line:\nexrna works\n\n"
 
-
+vscode:
+  settings:
+    # Change the initial explorer folder.
+    workbench.startup.workspace.restore: false # Don't restore the previous workspace state.
+    explorer.openEditors.visible: 0 # Don't show open editors in the explorer
