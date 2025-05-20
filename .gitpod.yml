@@ -14,7 +14,7 @@ tasks:
       conda config --add channels conda-forge
       conda config --set channel_priority strict
 
-      conda -y install fastqc cutadapt bowtie samtools multiqc seqtk bedtools
+      conda install -y fastqc cutadapt bowtie samtools multiqc seqtk bedtools
 
       clear
 
