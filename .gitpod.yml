@@ -14,11 +14,8 @@ tasks:
       conda config --add channels conda-forge
       conda config --set channel_priority strict
 
-      conda create -y -n exrna fastqc cutadapt bowtie samtools multiqc seqtk bedtools
-
-      conda activate exrna
+      conda -y install fastqc cutadapt bowtie samtools multiqc seqtk bedtools
 
       clear
 
       echo -e "\n\nPlease copy the text on the next line:\nexrna works\n\n"
-
